@@ -1,6 +1,8 @@
-C:\Users\Kurniawan\Documents\spring\postgre\src\main\java\com\nyoba\postgre\repository\UserauthRepository.java
-C:\Users\Kurniawan\Documents\spring\postgre\src\main\java\com\nyoba\postgre\service\UserauthServiceImplementation.java
-C:\Users\Kurniawan\Documents\spring\postgre\src\main\java\com\nyoba\postgre\PostgreApplication.java
-C:\Users\Kurniawan\Documents\spring\postgre\src\main\java\com\nyoba\postgre\model\Userauth.java
-C:\Users\Kurniawan\Documents\spring\postgre\src\main\java\com\nyoba\postgre\controller\UserauthController.java
-C:\Users\Kurniawan\Documents\spring\postgre\src\main\java\com\nyoba\postgre\service\UserauthService.java
+/home/ubuntu/spring-postgre/src/main/java/com/nyoba/postgre/model/Userauth.java
+/home/ubuntu/spring-postgre/src/main/java/com/nyoba/postgre/PostgreApplication.java
+/home/ubuntu/spring-postgre/src/main/java/com/nyoba/postgre/service/UserauthServiceImplementation.java
+/home/ubuntu/spring-postgre/src/main/java/com/nyoba/postgre/model/Util.java
+/home/ubuntu/spring-postgre/src/main/java/com/nyoba/postgre/controller/UserauthController.java
+/home/ubuntu/spring-postgre/src/main/java/com/nyoba/postgre/model/ResponseLogin.java
+/home/ubuntu/spring-postgre/src/main/java/com/nyoba/postgre/repository/UserauthRepository.java
+/home/ubuntu/spring-postgre/src/main/java/com/nyoba/postgre/service/UserauthService.java
