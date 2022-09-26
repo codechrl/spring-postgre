@@ -25,15 +25,9 @@ public class UserauthController {
     public List<Userauth> getAllUser(){
         return userauthService.getAllUser();
     }
-    //
-    @Tag(name = "user")
-    @GetMapping("/a")
-    public List<Userauth> getAllUser(){
-        return userauthService.getAllUser();
-    }
 
     @Tag(name = "user")
-    @GetMapping("/{email}")
+    @GetMapping("/email/")
     public Optional<Userauth> getUser(String email){
         return userauthService.getUser(email);
     }
@@ -48,7 +42,7 @@ public class UserauthController {
     }
 
     @Tag(name = "auth")
-    @PostMapping("/login/{email}&{password}")
+    @PostMapping("/login/")
     public ResponseLogin login(String email, String password){
         Optional<Userauth> userauth =  userauthService.getUser(email);
         ResponseLogin response = new ResponseLogin();
