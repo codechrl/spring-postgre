@@ -27,8 +27,7 @@ jobs:
             USERNAME : ${{ secrets.USERNAME  }}
             
         run: |
-          echo ${PRIVATE_KEY} > private_key 
-          chmod 600 private_key
+          echo ${PRIVATE_KEY} > ledg_spring.pem && sudo chmod 600 ledg_spring.pem
           ssh -o StrictHostKeyChecking=no -i private_key ubuntu@54.219.31.173
           
             #Now we have got the access of EC2 and we will start the deploy.
