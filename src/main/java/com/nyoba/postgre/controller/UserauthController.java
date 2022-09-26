@@ -25,6 +25,12 @@ public class UserauthController {
     public List<Userauth> getAllUser(){
         return userauthService.getAllUser();
     }
+    //
+    @Tag(name = "user")
+    @GetMapping("/a")
+    public List<Userauth> getAllUser(){
+        return userauthService.getAllUser();
+    }
 
     @Tag(name = "user")
     @GetMapping("/{email}")

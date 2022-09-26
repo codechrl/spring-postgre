@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  spring-postgre: # name of the service
+    image: spring-postgre # the image to use
+    container_name: spring-postgre # what to label the container for docker ps
+    ports:
+      - 8080:8080 # note, we're mapping to port 80 instead of 5000 because we'll use 80 on the VPS
+    restart: unless-stopped # restart if failed, until we stop it ourselves
