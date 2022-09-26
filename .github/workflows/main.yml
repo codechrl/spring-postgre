@@ -27,9 +27,10 @@ jobs:
             USERNAME : ${{ secrets.USERNAME  }}
             
         run: |
-          echo ${PRIVATE_KEY} > private_key && chmod 600 private_key
-          ssh -i private_key ${USER_NAME}@${HOSTNAME}
+          echo ${PRIVATE_KEY} > private_key 
+          chmod 600 private_key
+          ssh -i private_key ubuntu@54.219.31.173
           
-            #Now we have got the access of EC2 and we will start the deploy .
+            #Now we have got the access of EC2 and we will start the deploy.
             cd /home/ubuntu/spring-postgre
-            ./deploy.sh
+            sudo ./deploy.sh
