@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class UserauthServiceImplementation implements UserauthService {
@@ -22,4 +23,10 @@ public class UserauthServiceImplementation implements UserauthService {
     public List<Userauth> getAllUser() {
         return userauthRepository.findAll();
     }
+
+    @Override
+    public Optional<Userauth> getUser(String email) {
+       return userauthRepository.findById(email);
+    }
+
 }

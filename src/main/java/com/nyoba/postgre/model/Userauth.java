@@ -13,7 +13,6 @@ public class Userauth {
     private String role;
 
     public Userauth() {
-
     }
 
     public String getEmail() {
